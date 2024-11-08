@@ -1,0 +1,137 @@
+/* Body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section Styling */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    color: #333; 
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Contact Form Section Styling */
+.contact-form-section {
+    background-color: #FCE4EC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-section h2 {
+    color: #F06292;
+    margin-bottom: 20px;
+}
+
+/* Patient info section form Styling */
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #F06292;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #F06292;
+    outline: none;
+}
+
+/* Submit button Styling */
+.contact-form .submit-btn {
+    background-color: #F06292;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Schedule Table Section Styling*/
+.schedule-table-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.schedule-table-section h2 {
+    color: #F06292;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #F06292;
+    color: white;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+.schedule-table tbody tr:hover {
+    background-color: #e2dddf; 
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .schedule-table {
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+    }
+
+    .contact-form-section {
+        padding: 15px;
+    }
+}
