@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyStore - Home</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS Animation CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Animate.css for additional animations -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyStore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel for Featured Products -->
+  <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.thespruce.com/thmb/zRmVWmoE_8xqjOw-OMuGATw-5V8=/fit-in/2000x2000/filters:no_upscale():max_bytes(150000):strip_icc()/Adelaide842727Sofa-cd202506252c4cd9ba08250f0c9bd4a1.jpeg" class="d-block w-100" alt="Couch 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to MyStore</h5>
+          <p>Your one-stop shop for amazing couches and sofas!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i5.walmartimages.com/asr/deb1cb30-9468-4a8f-ad87-3967da55ce33.7a32589f9b92026856bd5c6d369fcad4.jpeg" class="d-block w-100" alt="Sofa 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Stylish Furniture</h5>
+          <p>Transform your living space with our premium sofas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Introduction Section -->
+  <div class="container my-5" data-aos="fade-up">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Welcome to MyStore</h2>
+        <p>We offer high-quality couches and sofas at unbeatable prices. Explore our collection today!</p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://i5.walmartimages.com/asr/86af7bf1-9d3f-4626-944b-ffef850a59ec_1.92f809dbc61141d775a30e0236a22201.jpeg" class="img-fluid" alt="Modern Sofa" data-aos="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4" style="position: absolute; bottom: 0; width: 100%; height: 100px;">
+    <p>&copy; 2024 MyStore | All Rights Reserved</p>
+  </footer>
+
+  <!-- AOS Animation JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
