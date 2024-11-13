@@ -43,10 +43,10 @@ if (num % 2 == 0) {
 
 //Matthew wrote 3 exams and received; Maths 56%, Physics:71%, English: 55%
 //Calculate the average and chcek whether or not 
-let physical = 71
-let mathematical = 98
+let physics = 71
+let maths = 98
 let english = 79
-let marks_aver = (physical + mathematical + english)/ 3;
+let marks_aver = (physics + maths + english)/ 3;
 console.log(marks_aver);
 average_mark = 60.66
 if(marks_aver >= 90){
